@@ -5,3 +5,13 @@ public class FirstClass {
 	int a;
 	int b;
 	int c;
+@Test
+	public void testCase1() {
+		System.out.println("FirstClass1"+" "+Thread.currentThread().getId());
+		int a=10;
+		int b=20;
+		//c=a < b? a:b;
+		//System.out.println(c);
+		Assert.assertTrue(a<b);
+		System.out.println("Hello");
+	}
