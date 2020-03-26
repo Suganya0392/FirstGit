@@ -15,3 +15,12 @@ public class FirstClass {
 		Assert.assertTrue(a<b);
 		System.out.println("Hello");
 	}
+	@Test
+	public void testCase2() {
+		System.out.println("FirstClass2"+" "+Thread.currentThread().getId());
+	//s="Suganya";
+	m="Mohana";
+	Assert.assertEquals("Mohana", m);
+	System.out.println("Thank you for processing");
+	}
+	}
