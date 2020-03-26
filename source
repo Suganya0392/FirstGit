@@ -1,0 +1,7 @@
+Welcome to java program using TestNG
+public class FirstClass {
+	String s;
+	String m;
+	int a;
+	int b;
+	int c;
